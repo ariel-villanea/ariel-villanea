@@ -5,30 +5,32 @@ title: About Me
 description: Software architect, problem solver, and lifelong learner building enterprise solutions that last.
 ---
 
-# About Me
+Howdy!
 
-## Who I Am
+My name is Ariel Villanea. I'm a software architect who's been in the industry since 2008; fresh out of high school and never went to college. I was born in Costa Rica but am now residing in Minnesota. I've learned that I definitely prefer the weather here in Minnesota. Some people think I'm crazy for it, but I've come to love the cold more than the soupy humidty of the tropics.
 
-I'm Ariel Villanea, a software architect who's been in the industry since 2008 building scalable, sustainable enterprise solutions. I was born in Costa Rica and raised across California and Florida, and am now residing in Minnesota. 
+Since joining the industry, I've spent my time doing my best to turn every complex technical challenge I come across into an elegant, long-lasting solution. I've spent most of my career in C#/.NET ecosystems, but I do love learning new technologies and have had plenty of exposure to Java, Oracle, and Python workflows as well. I also spent some time in a leadership role, but I honestly prefer being closer to the code and technology.
 
-I've spent nearly two decades turning complex technical challenges into elegant, long-lasting systems. I specialize in the C#/.NET ecosystem and focus on delivering **enterprise expertise without enterprise overhead**; providing Fortune 500-quality architecture and implementation without the traditional agency markup or vendor lock-in cycles.
+## Motivations and passions for work.
 
-## What Drives Me?
+I've always been way more interested in finding solutions meant to last 7-10+ years rather than implementing systems designed for perpetual upgrade cycles. When I get involved in projects, I always like to look beyond the MVP checklist and find why that checklist exists. Maybe it's cheesy, but I really enjoy delivering solutions for clients that truly make their lives easier or their work more enjoyable as opposed to simply checking off requirements.
 
-I'm energized by building systems that last 7-10+ years, not solutions designed for perpetual upgrades. Whether it's architecting AI orchestrators with .NET Aspire, modernizing legacy codebases, or designing sustainable architectures from scratch, I'm passionate about creating technology that serves people and organizations for the long haul.
+I love technology and I love talking with my end users just as much. I've always felt that if I don't know *why* I'm building something, I shouldn't be wasting mine or anyone elses time until I do. I also get a particularly excited joy when discussing requirements and I'm able to give my users scenarios they didn't consider, allowing us to harden and tighten up the deliverable for long-term use.
 
-My approach combines deep technical expertise with future-focused thinking. I don't just solve today's problems, I architect solutions that anticipate tomorrow's needs while remaining maintainable and cost-conscious.
+## Motivations and passions for life.
 
-## Beyond the Code
+Outside of work, I am a huge nerd. Gaming, music, anime; basically anything that falls under the 'nerd culture' umbrella probably holds its own place in my heart. And yes, that includes running and playing D&D and other tabletop games. Beyond all that, my biggest passion in life is actually my story telling. Since I was a teenager, I've been a hobbyist writer and love telling people all about my intricate deep lore I've built over the years. If you have nothing else to do and want to hear someone rant about science-fantasy stories for a couple of hours, ask me about my writing.
 
-When I'm not architecting software solutions, you'll find me immersed in gaming, music, and anime; basically anything that falls under the 'nerd culture' umbrella. I've run and played in numerous D&D campaigns over the years, which I've found to be surprisingly effective team-building exercises.
+On the technology side of things, I've also recently gotten very into VR and AI. They're currently unrelated to each other, but they are my two biggest techy nerd interests at the moment; I often find myself having to decide if I want to continue playing with AI or put my headset on; lately, AI has been winning that fight, though.
 
-## Current Focus
+## My current focus.
 
-After recently transitioning away from management roles, I'm focused on what I do best: Hands-on Technical Architecture and Solutions Engineering. I'm currently pursuing Solutions Architect and Principal Engineer positions (remote or local in the Minneapolis area), where I can apply my expertise in building sustainable, high-impact systems.
+As mentioned above, I've recently decided to transition away from management roles in my career. It was fun to be a director, and I found the work very engaging, but... every time I get a chance to work with code or new dev tools, I'm reminded how much I love being hands-on with technology. As such, now I'm focused on looking for opportunities that allow me to do what (I think) I do best: Technical Architecture and Solutions Engineering. I'm currently pursuing Solutions Architect and Principal Engineer positions (remote or local in the Minneapolis area), where I can apply my expertise to build problem-solving solutions for users, so if you know of any opportunities that would be good for me, let me know!
 
-I'm particularly interested in opportunities that value architectural thinking, sustainable design, and the kind of technical leadership that bridges business and engineering teams. Throughout my career, I've often found myself mediating between IT and Marketing (or other departments) when they're at odds. I've been consistently praised by both sides for my ability to cut through departmental tensions, provide honest assessments of technical realities and business constraints, and facilitate collaborative solutions where the company wins; not just one department being "right" over another. Real progress happens when technical teams understand business needs and business teams understand technical constraints.
+That being said, I will say that one of my biggest pride points in my career is that I've often found myself mediating between technical and non-technical teams when they're at odds. I've been lucky in my life to be put into situations where I've been able to flex my ability to cut through departmental tensions, provide honest assessments of technical realities and business constraints, and even facilitate collaborative solutions, avoiding the whole "I'm right, you're wrong" conversation to cut to the "okay, but how do we succeed as a team?" discussion. In my experience, real progress happens when technical teams understand business needs and the reasons behind them while feeling valued for their skills, all while the business teams understand the where's and how's of technical constraints without feeling like they're being gaslit or overwhelmed with esoteric jargon.
 
-## Let's Connect
+## Let's talk!
 
-Want to learn more about my work? Check out my [professional history](/about/professional-work-history) for detailed accounts of projects I've architected and delivered, or connect with me on [LinkedIn](https://www.linkedin.com/in/ariel-v-a5117328/) to discuss how I might help your organization.
+If you want to learn more about my work, check out my [professional history](/about/professional-work-history) for details on projects I've worked on and roles I've played. Otherwise, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/ariel-villanea/) to discuss how I might be able to help you or answer any questions you may have about me.
+
+Thank you for taking the time to read through all this; I hope you have a wonderful day!
