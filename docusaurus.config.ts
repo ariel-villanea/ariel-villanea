@@ -115,7 +115,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Villanea. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Ariel Villanea. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
