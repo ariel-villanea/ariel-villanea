@@ -101,7 +101,7 @@ const config: Config = {
           items: [
             {
               label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/ariel-v-a5117328/',
+              href: 'https://www.linkedin.com/in/ariel-villanea/',
             },
           ],
         },
