@@ -1,49 +1,11 @@
 import type {ReactNode} from 'react';
-import useGlobalData from '@docusaurus/useGlobalData';
 import Heading from '@theme/Heading';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
+import latestBlogPost from '@site/src/data/latestBlogPost.json';
 
 export default function HomepageFeatures(): ReactNode {
-  const globalData = useGlobalData();
-
-  // Debug: log what's available
-  console.log('Global Data:', Object.keys(globalData));
-  console.log('Blog Plugin Data:', globalData['docusaurus-plugin-content-blog']);
-
-  const blogData = globalData['docusaurus-plugin-content-blog']?.['default'];
-  console.log('Blog Data:', blogData);
-
-  if (!blogData) {
-    return (
-      <section className={styles.features}>
-        <div className="container">
-          <div className={styles.blogPost}>
-            <p>Blog data not available. Check console for debugging info.</p>
-          </div>
-        </div>
-      </section>
-    );
-  }
-
-  // Try to access recent posts - checking different possible structures
-  const recentPosts = (blogData as any).recentPosts || (blogData as any).blogPosts || (blogData as any).posts;
-  console.log('Recent Posts:', recentPosts);
-
-  if (!recentPosts || recentPosts.length === 0) {
-    return (
-      <section className={styles.features}>
-        <div className="container">
-          <div className={styles.blogPost}>
-            <p>No blog posts found. Check console for debugging info.</p>
-          </div>
-        </div>
-      </section>
-    );
-  }
-
-  const recentPost = recentPosts[0];
-  const {title, permalink, description, date} = recentPost.metadata || recentPost;
+  const {title, permalink, description, date} = latestBlogPost;
   const displayDate = new Date(date).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',
