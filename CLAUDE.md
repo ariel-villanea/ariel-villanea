@@ -6,8 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Villanea** is a professional portfolio and documentation website built with Docusaurus v3.9.2. It serves as a platform to showcase projects, write blog posts, and host comprehensive documentation.
 
-**GitHub Pages Deployment:**
-- URL: https://ariel-villanea.github.io/ariel-villanea/
+**Deployment:**
+- Production URL: https://villanea.com
+- GitHub Pages (fallback): https://ariel-villanea.github.io/ariel-villanea/
 - Organization: ariel-villanea
 - Project: ariel-villanea
 
@@ -61,9 +62,15 @@ npm run write-heading-ids          # Add IDs to markdown headings
 - `HomepageFeatures` component displays three-column feature grid
 - Type-safe imports using `@site/` alias for project root
 - CSS Modules for component-scoped styling
+- **src/theme/Root.tsx**: Custom theme wrapper for GTM noscript fallback
 
 ### Content Frontmatter
 Blog posts and docs support MDX frontmatter for metadata (title, author, tags, date, etc.). Docusaurus enforces best practices with warnings for inline tags/authors and untruncated blog posts.
+
+### SEO & Analytics
+- **Sitemap**: Auto-generated at `/sitemap.xml` via Docusaurus sitemap plugin (configured in docusaurus.config.ts)
+- **JSON-LD Structured Data**: Implemented for SEO in `src/pages/index.tsx` (Person, WebSite schemas) and `docs/about-me.mdx` (ProfilePage schema)
+- **Google Tag Manager**: Container GTM-NW5R5T39 loaded via `headTags` in docusaurus.config.ts with noscript fallback in Root.tsx
 
 ## Development Notes
 
