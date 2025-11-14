@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Professional Portfolio',
+    title: 'Seeking The Next Mountain To Climb',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Showcase your projects, skills, and achievements in a modern,
-        clean, and professional way with built-in documentation support.
+        I love solving complex problems and providing innovative solutions that make a difference. Got a challenge for me?
       </>
     ),
   },
   {
-    title: 'Blog & Articles',
+    title: 'User-Friendly & Future-Proofed',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Share your thoughts, tutorials, and insights with a powerful blogging
-        platform that supports MDX, reading time, and RSS feeds.
+        I have a hard time getting behind anything that doesn't prioritize user experience and long-term viability. Let's build something that lasts!
       </>
     ),
   },
   {
-    title: 'Documentation Ready',
+    title: 'Looking to Lock In',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Create comprehensive documentation for your projects with versioning,
-        search, and a customizable sidebar navigation system.
+        I crave work that forces me and my team to sit down and really think about the long-term value of our solutions. Let's grab some snacks and brainstorm!
       </>
     ),
   },
