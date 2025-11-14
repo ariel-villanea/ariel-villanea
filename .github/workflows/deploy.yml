@@ -31,9 +31,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Update latest blog post
-        run: npm run update-blog
-
       - name: Build website
         run: npm run build
 
