@@ -5,7 +5,134 @@
   width: 100%;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+/* Current Work Status Section */
+.statusSection {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  padding: 0 1rem;
+}
+
+.statusSection h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: var(--ifm-heading-color);
+}
+
+.statusAlert {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: #d4edda;
+  border-left: 4px solid #28a745;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] .statusAlert {
+  background-color: rgba(40, 167, 69, 0.15);
+  border-left-color: #28a745;
+}
+
+.statusIcon {
+  font-size: 1.5rem;
+  color: #28a745;
+  font-weight: bold;
+  flex-shrink: 0;
+  line-height: 1.4;
+}
+
+.statusContent {
+  flex: 1;
+}
+
+.statusContent strong {
+  display: block;
+  color: #155724;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+[data-theme='dark'] .statusContent strong {
+  color: #28a745;
+}
+
+.statusContent p {
+  margin: 0;
+  color: #155724;
+  line-height: 1.6;
+}
+
+[data-theme='dark'] .statusContent p {
+  color: var(--ifm-color-emphasis-800);
+}
+
+.blogPost {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.blogPost h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: var(--ifm-heading-color);
+}
+
+.blogPost article {
+  padding: 2rem;
+  border-radius: 8px;
+  background: var(--ifm-card-background-color);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.blogPost article:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.blogPost h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.blogPost h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.blogPost h3 a:hover {
+  color: var(--ifm-color-primary);
+}
+
+.blogDate {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.blogContent {
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.blogContent p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.readMore {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.readMore:hover {
+  text-decoration: underline;
+  transform: translateX(4px);
 }

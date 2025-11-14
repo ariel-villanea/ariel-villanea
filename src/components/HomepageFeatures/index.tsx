@@ -1,66 +1,48 @@
 import type {ReactNode} from 'react';
-import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
-
-type FeatureItem = {
-  title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: ReactNode;
-};
-
-const FeatureList: FeatureItem[] = [
-  {
-    title: 'Seeking The Next Mountain To Climb',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        I love solving complex problems and providing innovative solutions that make a difference. Got a challenge for me?
-      </>
-    ),
-  },
-  {
-    title: 'User-Friendly & Future-Proofed',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        I have a hard time getting behind anything that doesn't prioritize user experience and long-term viability. Let's build something that lasts!
-      </>
-    ),
-  },
-  {
-    title: 'Looking to Lock In',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        I crave work that forces me and my team to sit down and really think about the long-term value of our solutions. Let's grab some snacks and brainstorm!
-      </>
-    ),
-  },
-];
-
-function Feature({title, Svg, description}: FeatureItem) {
-  return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
+import latestBlogPost from '@site/.data/latestBlogPost.json';
 
 export default function HomepageFeatures(): ReactNode {
+  const {title, permalink, description, date} = latestBlogPost;
+  const displayDate = new Date(date).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+        {/* Current Work Status */}
+        <div className={styles.statusSection}>
+          <Heading as="h2">Current Work Status</Heading>
+          <div className={styles.statusAlert}>
+            <div className={styles.statusIcon}>✓</div>
+            <div className={styles.statusContent}>
+              <strong>Available for Work</strong>
+              <p>I'm currently on the job market and ready to start immediately. Looking for opportunities where I can contribute my 17+ years of experience in solutions architecture, full-stack development, and team leadership to solve complex challenges.</p>
+              <p>If you'd like to get in touch, please feel free to reach out via my <a href="https://www.linkedin.com/in/ariel-villanea/">LinkedIn</a> or <a href="mailto:sw@villanea.com">email</a>.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Latest Blog Post */}
+        <div className={styles.blogPost}>
+          <Heading as="h2">Latest from the Blog</Heading>
+          <article>
+            <Heading as="h3">
+              <Link to={permalink}>{title}</Link>
+            </Heading>
+            <p className={styles.blogDate}>{displayDate}</p>
+            <div className={styles.blogContent}>
+              {description && <p>{description}</p>}
+              <Link to={permalink} className={styles.readMore}>
+                Read more →
+              </Link>
+            </div>
+          </article>
         </div>
       </div>
     </section>
