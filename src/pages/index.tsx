@@ -49,7 +49,18 @@ export default function Home(): ReactNode {
         "React",
         "TypeScript",
         "Node.js"
-      ]
+      ],
+      "seeks": {
+        "@type": "Demand",
+        "availability": "https://schema.org/InStock",
+        "availabilityStarts": "2025-10-30",
+        "itemOffered": {
+          "@type": "Service",
+          "serviceType": "Professional Employment Services",
+          "name": "Solutions Architect or Principal Engineer",
+          "description": "Seeking Solutions Architect or Principal Engineer position with expertise in cloud architecture, full-stack development, and technical leadership. Remote or Minneapolis, MN area. Salary expectation: $150,000 USD annually."
+        }
+      }
     },
     {
       "@context": "https://schema.org",
