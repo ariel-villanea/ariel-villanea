@@ -5,7 +5,7 @@ export default function Root({children}) {
     <>
       <noscript>
         <iframe
-          src="https://www.googletagmanager.com/ns.html?id=GTM-NW5R5T39"
+          src="https://www.googletagmanager.com/ns.html?id=GTM-NGKD6Z9F"
           height="0"
           width="0"
           style={{display: 'none', visibility: 'hidden'}}
