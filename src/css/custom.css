@@ -6,13 +6,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #d4a017;
-  --ifm-color-primary-dark: #bf9015;
-  --ifm-color-primary-darker: #b58714;
-  --ifm-color-primary-darkest: #9a7311;
-  --ifm-color-primary-light: #daa919;
-  --ifm-color-primary-lighter: #dfb21b;
-  --ifm-color-primary-lightest: #e5bb1e;
+  --ifm-color-primary: #1e4d7b;
+  --ifm-color-primary-dark: #1b456e;
+  --ifm-color-primary-darker: #194168;
+  --ifm-color-primary-darkest: #153656;
+  --ifm-color-primary-light: #215588;
+  --ifm-color-primary-lighter: #235a8f;
+  --ifm-color-primary-lightest: #2766a3;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -27,6 +27,12 @@
   --ifm-color-primary-lighter: #f4d043;
   --ifm-color-primary-lightest: #f7d858;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Darken footer in dark mode for better contrast */
+[data-theme='dark'] .footer {
+  background-color: #1a1a1a;
+  border-top: 1px solid #2a2a2a;
 }
 
 /* Hide all dates from blog posts */
