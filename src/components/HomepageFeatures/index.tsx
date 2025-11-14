@@ -23,6 +23,7 @@ export default function HomepageFeatures(): ReactNode {
             <div className={styles.statusContent}>
               <strong>Available for Work</strong>
               <p>I'm currently on the job market and ready to start immediately. Looking for opportunities where I can contribute my 17+ years of experience in solutions architecture, full-stack development, and team leadership to solve complex challenges.</p>
+              <p>If you'd like to get in touch, please feel free to reach out via my <a href="https://www.linkedin.com/in/ariel-villanea/">LinkedIn</a> or <a href="mailto:sw@villanea.com">email</a>.</p>
             </div>
           </div>
         </div>
