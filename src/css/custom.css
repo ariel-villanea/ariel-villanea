@@ -52,11 +52,11 @@
 }
 
 [data-theme="dark"] .footer,
-.footer__title,
-.footer__item,
-.footer__link-item,
-.footer a,
-.footer__copyright {
+[data-theme="dark"] .footer__title,
+[data-theme="dark"] .footer__item,
+[data-theme="dark"] .footer__link-item,
+[data-theme="dark"] .footer a,
+[data-theme="dark"] .footer__copyright {
   color: #ffffff;
 }
 
