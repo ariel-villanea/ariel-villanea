@@ -56,6 +56,3 @@ CLAUDE.local.md
 
 # Logs output file
 LOGS.md
-
-# Generated data files
-src/data/latestBlogPost.json
