@@ -43,7 +43,7 @@ const config: Config = {
       {
         docs: {
           routeBasePath: 'about',
-          sidebarPath: './sidebars.ts',          
+          sidebarPath: './sidebars.ts',
         },
         blog: {
           showReadingTime: true,
@@ -61,6 +61,12 @@ const config: Config = {
         },
         theme: {
           customCss: './src/css/custom.css',
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
       } satisfies Preset.Options,
     ],
