@@ -86,7 +86,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/ariel.jpg',
+    image: 'img/pengu.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
