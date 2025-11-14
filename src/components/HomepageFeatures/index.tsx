@@ -2,7 +2,7 @@ import type {ReactNode} from 'react';
 import Heading from '@theme/Heading';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
-import latestBlogPost from '@site/src/data/latestBlogPost.json';
+import latestBlogPost from '@site/.data/latestBlogPost.json';
 
 export default function HomepageFeatures(): ReactNode {
   const {title, permalink, description, date} = latestBlogPost;

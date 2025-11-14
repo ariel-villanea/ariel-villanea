@@ -12,7 +12,7 @@ const path = require('path');
 const matter = require('gray-matter');
 
 const BLOG_DIR = path.join(__dirname, '..', 'blog');
-const OUTPUT_FILE = path.join(__dirname, '..', 'src', 'data', 'latestBlogPost.json');
+const OUTPUT_FILE = path.join(__dirname, '..', '.data', 'latestBlogPost.json');
 
 // Get all blog post files
 const blogFiles = fs.readdirSync(BLOG_DIR)
@@ -60,6 +60,12 @@ const output = {
   description: latestPost.description,
   date: latestPost.date
 };
+
+// Ensure .data directory exists
+const outputDir = path.dirname(OUTPUT_FILE);
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
 
 // Write to output file
 fs.writeFileSync(OUTPUT_FILE, JSON.stringify(output, null, 2) + '\n');
