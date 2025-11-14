@@ -5,6 +5,68 @@
   width: 100%;
 }
 
+/* Current Work Status Section */
+.statusSection {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  padding: 0 1rem;
+}
+
+.statusSection h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: var(--ifm-heading-color);
+}
+
+.statusAlert {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: #d4edda;
+  border-left: 4px solid #28a745;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] .statusAlert {
+  background-color: rgba(40, 167, 69, 0.15);
+  border-left-color: #28a745;
+}
+
+.statusIcon {
+  font-size: 1.5rem;
+  color: #28a745;
+  font-weight: bold;
+  flex-shrink: 0;
+  line-height: 1.4;
+}
+
+.statusContent {
+  flex: 1;
+}
+
+.statusContent strong {
+  display: block;
+  color: #155724;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+[data-theme='dark'] .statusContent strong {
+  color: #28a745;
+}
+
+.statusContent p {
+  margin: 0;
+  color: #155724;
+  line-height: 1.6;
+}
+
+[data-theme='dark'] .statusContent p {
+  color: var(--ifm-color-emphasis-800);
+}
+
 .blogPost {
   max-width: 800px;
   margin: 0 auto;

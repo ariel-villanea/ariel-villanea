@@ -15,6 +15,19 @@ export default function HomepageFeatures(): ReactNode {
   return (
     <section className={styles.features}>
       <div className="container">
+        {/* Current Work Status */}
+        <div className={styles.statusSection}>
+          <Heading as="h2">Current Work Status</Heading>
+          <div className={styles.statusAlert}>
+            <div className={styles.statusIcon}>✓</div>
+            <div className={styles.statusContent}>
+              <strong>Available for Work</strong>
+              <p>I'm currently on the job market and ready to start immediately. Looking for opportunities where I can contribute my 17+ years of experience in solutions architecture, full-stack development, and team leadership to solve complex challenges.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Latest Blog Post */}
         <div className={styles.blogPost}>
           <Heading as="h2">Latest from the Blog</Heading>
           <article>
