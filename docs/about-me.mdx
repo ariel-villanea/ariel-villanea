@@ -37,8 +37,18 @@ import Head from '@docusaurus/Head';
         ],
         "alumniOf": "Self-taught developer since 2008",
         "birthPlace": "Costa Rica",
-        "homeLocation": "Minnesota, USA",
-        "workLocation": "Remote"
+        "homeLocation": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Minnesota",
+            "addressCountry": "USA"
+          }
+        },
+        "workLocation": {
+          "@type": "Place",
+          "name": "Remote"
+        }
       }
     }`}
   </script>
