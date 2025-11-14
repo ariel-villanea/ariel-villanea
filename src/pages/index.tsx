@@ -31,12 +31,12 @@ export default function Home(): ReactNode {
     {
       "@context": "https://schema.org",
       "@type": "Person",
-      "@id": "https://ariel-villanea.github.io/#person",
+      "@id": "https://villanea.com/#person",
       "name": "Ariel Villanea",
       "jobTitle": "Solutions Architect & Software Engineer",
       "description": "Solutions Architect, Software Engineer, and Pragmatic Problem Solver with 17+ years of experience in full-stack development, cloud architecture, and team leadership",
-      "url": "https://ariel-villanea.github.io",
-      "image": "https://ariel-villanea.github.io/img/ariel.jpg",
+      "url": "https://villanea.com",
+      "image": "https://villanea.com/img/ariel.jpg",
       "sameAs": [
         "https://www.linkedin.com/in/ariel-villanea/",
         "https://github.com/ariel-villanea"
@@ -54,12 +54,12 @@ export default function Home(): ReactNode {
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "@id": "https://ariel-villanea.github.io/#website",
-      "url": "https://ariel-villanea.github.io",
+      "@id": "https://villanea.com/#website",
+      "url": "https://villanea.com",
       "name": "Ariel Villanea",
       "description": "Professional Profile & Blog",
       "publisher": {
-        "@id": "https://ariel-villanea.github.io/#person"
+        "@id": "https://villanea.com/#person"
       },
       "inLanguage": "en-US"
     }

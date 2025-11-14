@@ -6,8 +6,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Villanea** is a professional portfolio and documentation website built with Docusaurus v3.9.2. It serves as a platform to showcase projects, write blog posts, and host comprehensive documentation.
 
-**GitHub Pages Deployment:**
-- URL: https://ariel-villanea.github.io/ariel-villanea/
+**Deployment:**
+- Production URL: https://villanea.com
+- GitHub Pages (fallback): https://ariel-villanea.github.io/ariel-villanea/
 - Organization: ariel-villanea
 - Project: ariel-villanea
 

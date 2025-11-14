@@ -18,6 +18,7 @@
       "Bash(set GIT_USER=ariel-villanea)",
       "Bash(git ls-remote:*)",
       "Bash(git clone:*)",
+      "WebFetch(domain:villanea.com)",
       "WebFetch(domain:ariel-villanea.github.io)",
       "Bash(npm run build:*)",
       "Bash(git branch:*)"
